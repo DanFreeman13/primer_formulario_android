@@ -57,8 +57,7 @@ public class ConfirmacionDatos extends AppCompatActivity {
             @Override
             public void onClick(View view){
 
-                Intent j = new Intent(ConfirmacionDatos.this, MainActivity.class);
-                startActivity(j);
+                finish();
 
             }
         });
