@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margen">16dp</dimen>
+    <dimen name="txformsize">15dp</dimen>
+    <dimen name="titulo">30dp</dimen>
+    <dimen name="textConfirm">20dp</dimen>
+</resources>

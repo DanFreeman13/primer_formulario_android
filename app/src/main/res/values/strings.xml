@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="campoNombre">Nombre Completo</string>
+    <string name="campoFecha">Fecha de Nacimiento</string>
+    <string name="textoEstablecer">Establecer Fecha</string>
+    <string name="campoTelefono">Telefono</string>
+    <string name="campoEmail">Email</string>
+    <string name="campoDescripcion">Descripción Contacto</string>
+    <string name="textoSiguiente">Siguiente</string>
+
+    <string name="Titulo">Confirmar Datos</string>
+    <string name="textoEditar">Editar Datos</string>
+
+    <string name="pnombre">nombre</string>
+    <string name="pcumpleaniosdia">cumpleaniosdia</string>
+    <string name="pcumpleaniosmes">cumpleaniosmes</string>
+    <string name="pcumpleaniosanio">cumpleaniosanio</string>
+    <string name="ptelefono">telefono</string>
+    <string name="pemail">email</string>
+    <string name="pdescripcion">descripcion</string>
+
+    <string name="guardaNombre">guardanombre</string>
+    <string name="guardaTelefono">guardatelefono</string>
+    <string name="guardaEmail">guardaemail</string>
+    <string name="guardaBio">guardabio</string>
+
+
+
+</resources>

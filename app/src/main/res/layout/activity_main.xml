@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/margen"
+    android:layout_marginRight="@dimen/margen"
+    android:layout_marginBottom="@dimen/margen"
+    android:layout_marginLeft="@dimen/margen"
+    android:layout_gravity="center_vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/txinNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/ElNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/campoNombre"
+            android:fontFamily="casual"
+            android:inputType="text"
+            android:textSize="@dimen/txformsize"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <RelativeLayout
+        android:id="@+id/SelectorDeFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/txformsize"
+            android:text="@string/campoFecha"
+            android:fontFamily="casual"
+            android:padding="10dp"/>
+
+        <DatePicker
+            android:id="@+id/selectorFecha"
+            android:layout_below="@id/tvFecha"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"
+            />
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textoEstablecer"
+            android:background="@color/colorBackground"
+            android:drawableBottom="#000000"
+            android:layout_below="@id/selectorFecha"
+            android:layout_centerHorizontal="true"/>
+
+
+    </RelativeLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/txinTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/ElTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/campoTelefono"
+            android:fontFamily="casual"
+            android:inputType="phone"
+            android:textSize="@dimen/txformsize"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/txinEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/ElEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/campoEmail"
+            android:fontFamily="casual"
+            android:inputType="textEmailAddress"
+            android:textSize="@dimen/txformsize"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/txinDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/LaDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/campoDescripcion"
+            android:fontFamily="casual"
+            android:inputType="text"
+            android:textSize="@dimen/txformsize"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/botonSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="@string/textoSiguiente"
+        android:layout_gravity="bottom"/>
+
+</LinearLayout>

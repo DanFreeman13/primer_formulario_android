@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmacionDatos">
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Titulo"
+        android:textAlignment="center"
+        android:padding="@dimen/txformsize"
+        android:textSize="@dimen/titulo"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:id="@+id/NombreDado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Titulo"
+        android:fontFamily="casual"
+        android:textSize="@dimen/textConfirm"
+        android:padding="@dimen/margen"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/Cumpleanios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/NombreDado"
+        android:fontFamily="casual"
+        android:textSize="@dimen/textConfirm"
+        android:padding="@dimen/margen"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/TelefonoDado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Cumpleanios"
+        android:fontFamily="casual"
+        android:textSize="@dimen/textConfirm"
+        android:padding="@dimen/margen"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/EmailDado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TelefonoDado"
+        android:fontFamily="casual"
+        android:textSize="@dimen/textConfirm"
+        android:padding="@dimen/margen"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/Bio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EmailDado"
+        android:fontFamily="casual"
+        android:textSize="@dimen/textConfirm"
+        android:padding="@dimen/margen"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Bio"
+        android:layout_margin="@dimen/margen"
+        android:text="@string/textoEditar"
+        android:background="@color/colorAccent"/>
+
+</RelativeLayout>
